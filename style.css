@@ -1,0 +1,459 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.div1
+{
+position: relative;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    color: white;
+   
+  }
+  .first
+  {
+    font-family: 'Pacifico', cursive;
+  }
+  .second
+  {
+    font-family: "Sacramento", cursive;
+  }
+  button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+  }
+#quote {
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+    position: absolute;
+    font-size: 60px;
+    padding: 25px 20px 10px 70px ;
+  }
+/* .section1{
+    margin-top: 50px;
+    display: flex;
+    background-color: aliceblue;
+}
+.section2{
+    margin-top: 50px;
+    display: flex;
+    background-color: aliceblue;
+} */
+.secondsection
+{
+  width: 100%;
+  display: flex;
+  height: 80vh;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+#section-head2 {
+  text-align: center;
+  width: 100%;
+  height: 5vh;
+  margin-top: 0px;
+  font-family: "Single Day", cursive;
+  background-image: url("./Images/travelbg9cpy.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+}
+
+.mainHead2 {
+  font-size: 30px;
+}
+.subHead2 {
+  font-size: 20px;
+  color: green;
+}
+.home2
+{
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+.home2div {
+  position: relative;
+  width: 300px;
+  height: 40vh;
+  margin: 10px 20px 0px 20px;
+  /*  background-color:red;*/
+  border-radius: 10px;
+  border: 1px solid;
+  align-items: center;
+  justify-self: center;
+  box-shadow: 10px 10px 10px 0px rgb(52, 49, 49);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 35vh;
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #8ba5aee0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.home2div:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  display: grid;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#download1
+{
+  text-decoration: none;
+  background-color: rgb(18, 90, 205);
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 60px;
+  margin-top: 30px;
+  display: inline-block;
+}
+#download1:hover
+{
+cursor: pointer;
+color: red;
+}
+
+#section-head3 {
+  text-align: center;
+  width: 100%;
+  height: 5vh;
+  margin-top: 0px;
+  font-family: "Single Day", cursive;
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+}
+
+.mainHead3 {
+  font-size: 30px;
+}
+.subHead3 {
+  font-size: 20px;
+  color: rgb(210, 73, 23);
+  font-family: 'Kalam', cursive;
+}
+
+  #home1 {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+  }
+  .div6 {
+   
+    width: 300px;
+    height: 40vh;
+    margin: 30px 20px 0px 20px;
+    /*  background-color:red;*/
+    border-radius: 40px;
+    border: 1px solid;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 10px 10px 10px 0px rgb(52, 49, 49);
+  }
+  
+  .div7 {
+    width: 300px;
+    height: 40vh;
+    margin: 30px 20px 0px 20px;
+    /*background-color: blueviolet;*/
+    border: 1px solid;
+    border-radius: 40px;  
+    box-shadow: 10px 10px 10px 0px rgb(52, 49, 49);
+  }
+  .div8 {
+    width: 300px;
+    height: 40vh;
+    margin: 30px 20px 0px 20px;
+    /* background-color: violet;*/
+    border-radius: 40px; 
+    border: 1px solid;
+    flex-shrink: 2;
+    box-shadow: 10px 10px 10px 0px rgb(52, 49, 49);
+  }
+  .featureshead
+  {
+    font-family: "Solitreo", cursive;
+    text-align: center;
+    margin-top: 20px;
+  }
+.featureslink
+{
+  font-family: "Solitreo", cursive;
+  text-align: center;
+  margin-left: 90px;
+}
+  /*.div9 {
+    
+    width: 100px;
+    height: 60vh;
+    margin: 250px 20px 0px 90px;
+    /* background-color: yellow;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+     
+  }*/
+  .div6img
+  {
+    width: 100%;
+    display: block;
+    height: 25vh;
+    margin-top: 20px;
+    border-radius: 50%;
+
+
+  }
+  
+  .div6:hover .div6img
+  {
+    opacity: 80%;
+    transition: all 1s;
+  }
+  .div7:hover .div6img
+  {
+    opacity: 80%;
+    transition: all 1s;
+  }
+  .div8:hover .div6img
+  {
+    opacity: 80%;
+    transition: all 1s;
+  }
+  #download
+  {
+    text-decoration: none;
+    background-color: rgba(78, 76, 76, 0.532);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 80px;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+  #section-head4 {
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    margin-top: 0px;
+    font-family: "Single Day", cursive;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+  }
+  
+  .mainHead4 {
+    font-size: 50px;
+    color: rgb(255, 0, 38);
+  }
+  .subHead4 {
+    font-size: 40px;
+    color: rgb(23, 29, 210);
+    font-family: 'Kalam', cursive;
+  }
+  .home3
+  {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+
+  }
+  .rating
+  {
+      display: grid;
+      width: 25%;
+      display: block;
+      height: 40vh;
+      margin: 20px;
+      border-radius: 10px;
+      /* border: 1px solid; */
+      align-items: center;
+      justify-content: center;
+  
+
+  }
+  .rateimage
+  {
+    display: block;
+    height: 25vh;
+    width: 100%;
+    margin : 30px;
+    border-radius: 20px;
+    border: 1px solid;
+
+  }
+  .stars
+  {
+    color: green;
+   text-align: center;
+    font-size: 30px;
+  }
+  .ratecontents
+  {
+    text-align: center;
+  }
+  
+.footer {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("./Images/hegfc9qm.png");
+ background-color: rgba(67, 8, 110, 0.799);
+
+  
+}
+.footerdivhead
+{
+  margin-top: 10px;
+  color: orange;
+}
+.list
+{
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+.listitem
+{
+  font-family: "Single Day", cursive;
+  color: white;
+}
+.footerdiv1 {
+  position: relative;
+  display: flex;
+  width: 250px;
+  height: 30vh;
+  margin: 30px 20px 0px 20px;
+  /*border: 1px solid;*/
+  
+  align-items: center;
+  justify-content: space-between;
+}
+.footerimage
+{
+  width: 200px;
+  height: 30vh;
+}
+.footerdiv2 {
+  width: 250px;
+  height: 30vh;
+  margin: 30px 20px 0px 20px;
+ /* border: 1px solid;*/
+  font-family: "Solitreo", cursive;
+  padding: 0px 16px;
+}
+.footerdivhead
+{
+  margin-top: 10px;
+}
+.divhead
+{
+  margin-top: 0px;
+}
+.list
+{
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+.listitem
+{
+  font-family: "Single Day", cursive;
+}
+.footerdiv3 {
+  width: 250px;
+  height: 30vh;
+  margin: 30px 20px 0px 20px;
+ /* border: 1px solid;*/
+  font-family: "Solitreo", cursive;
+  padding: 0px 16px;
+  
+}
+.footerdiv4 {
+
+  align-items: center;
+  width: 250px;
+  height: 30vh;
+  margin: 30px 20px 0px 20px;
+ /* border: 1px solid;*/
+
+}
+.iconfamily
+{
+  display: flex;
+  margin-top: 20px;
+}
+.icons
+{
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.brands
+{
+  color:white;
+  font-size: 40px;
+}
+
+.footerheading {
+  color: black;
+  font-family: "Solitreo", cursive;
+  align-items: center;
+  padding: 10px 10px 0px 80px;
+}
